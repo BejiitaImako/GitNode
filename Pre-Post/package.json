@@ -1,0 +1,24 @@
+{
+  "name": "pre-post",
+  "version": "1.0.0",
+  "description": "A test of the script section of the npm init JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ignore": "echo \"\">>.gitignore",
+    "preignore": "touch .gitignore",
+    "postignore": "echo \".gitignore\n.vscode/\nnode_modules/\" >>.gitignore"
+  },
+  "keywords": [
+    "GitNode",
+    "NPM",
+    "init",
+    "script",
+    "test"
+  ],
+  "author": "Bejiita Imako",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.1.1"
+  }
+}
