@@ -1,13 +1,11 @@
 {
   "name": "pre-post",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test of the script section of the npm init JSON file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ignore": "echo \"\">>.gitignore",
-    "preignore": "touch .gitignore",
-    "postignore": "echo \".gitignore\n.vscode/\nnode_modules/\" >>.gitignore"
+    "build": "npm version patch"
   },
   "keywords": [
     "GitNode",
